@@ -1,77 +1,33 @@
 <!doctype html>
 <html>
 <head>
-    <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>Hello Wembley</title>
 
-    <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
-</head>
+    </head>
 <body>
-    <content tag="nav">
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Environment: ${grails.util.Environment.current.name}</a></li>
-                <li><a href="#">App profile: ${grailsApplication.config.grails?.profile}</a></li>
-                <li><a href="#">App version:
-                    <g:meta name="info.app.version"/></a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Grails version:
-                    <g:meta name="info.app.grailsVersion"/></a>
-                </li>
-                <li><a href="#">Groovy version: ${GroovySystem.getVersion()}</a></li>
-                <li><a href="#">JVM version: ${System.getProperty('java.version')}</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</a></li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artefacts <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Controllers: ${grailsApplication.controllerClasses.size()}</a></li>
-                <li><a href="#">Domains: ${grailsApplication.domainClasses.size()}</a></li>
-                <li><a href="#">Services: ${grailsApplication.serviceClasses.size()}</a></li>
-                <li><a href="#">Tag Libraries: ${grailsApplication.tagLibClasses.size()}</a></li>
-            </ul>
-        </li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Installed Plugins <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-                    <li><a href="#">${plugin.name} - ${plugin.version}</a></li>
-                </g:each>
-            </ul>
-        </li>
+    <content>
+
+<a href="http://www.shu.ac.uk">The Shoe Website</a>
+
     </content>
 
-    <div class="svg" role="presentation">
-        <div class="grails-logo-container">
-            <asset:image src="grails-cupsonly-logo-white.svg" class="grails-logo"/>
-        </div>
-    </div>
+
 
     <div id="content" role="main">
         <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
 
-            <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
-            </p>
+		<h1>System Architectures</h1>
 
-            <div id="controllers" role="navigation">
-                <h2>Available Controllers:</h2>
-                <ul>
-                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller">
-                            <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
-                        </li>
-                    </g:each>
-                </ul>
-            </div>
+		<h3>Doric Columns</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mi erat, vestibulum sit amet ex aliquet, ultrices aliquet ex. Etiam bibendum risus lectus, efficitur eleifend ligula tincidunt ac. In sit amet lacus faucibus, rutrum urna non, gravida lorem. Vivamus posuere arcu aliquam ante scelerisque feugiat. Vivamus consectetur lectus vel ornare pulvinar. Integer vel diam et eros maximus posuere nec ut ipsum. Quisque et venenatis dolor, eu scelerisque quam. Etiam tempor sodales aliquam. Interdum et malesuada fames ac ante ipsum primis in faucibus. In ut quam sem. </p>
+
+		<h3>Ionic Columns</h3>
+		<p>Nam mollis hendrerit felis non mollis. In arcu felis, luctus non mi id, lobortis lobortis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam vitae dignissim diam. Sed mattis est eu nisi bibendum auctor. Vivamus imperdiet quis felis non vehicula. Maecenas quis augue et purus dignissim porttitor vel nec libero. Aenean non vestibulum odio. Fusce semper sit amet lectus eget facilisis. Nulla pellentesque aliquet erat at feugiat. Vestibulum et velit et tortor tincidunt viverra non sed purus.</p>
+		
+		<h3>Corinthian Columns</h3>
+		<p>Quisque volutpat ante lacinia ipsum auctor facilisis. Pellentesque vitae magna hendrerit, porttitor libero non, mattis augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean quis pretium ligula, et blandit sem. Aenean bibendum magna eu tincidunt eleifend. Aliquam faucibus enim vel nunc elementum sollicitudin. Vivamus quis diam quis enim pulvinar rutrum. Mauris et dolor sodales, venenatis magna non, ultrices arcu. Morbi consectetur hendrerit lacus, nec vehicula lectus porttitor in. Nam consequat fermentum dolor a porttitor. Praesent eleifend tristique eleifend. Sed vehicula tortor in lacinia gravida. Fusce in dignissim turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum hendrerit iaculis diam. Suspendisse eu tempus tortor.</p>
+
+
         </section>
     </div>
 
