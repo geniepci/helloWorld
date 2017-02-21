@@ -1,7 +1,17 @@
 <!doctype html>
 <html>
 <head>
-    <title>Hello Wembley</title>
+    	<title>Hello Wembley</title>
+	<style>
+		body {background-color: green;}
+		p {font-family: courier; color: pink;}
+		h1 {font-family: arial; color: blue;}
+		h3 {font-family: verdana; color: orange;}
+
+	</style>
+
+
+
 
     </head>
 <body>
